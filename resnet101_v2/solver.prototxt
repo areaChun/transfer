@@ -1,0 +1,14 @@
+net: "models/resnet/resnet101_v2/resnet101_v2.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.00001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+max_iter: 40000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "models/bvlc_alexnet/VGG_ILSVRC_19_finrtuned"
+solver_mode: GPU
