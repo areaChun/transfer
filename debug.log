@@ -12798,4 +12798,219 @@ I1201 17:06:57.346050  7778 net.cpp:415] debugOutput:max_val:29.9122
 I1201 17:06:57.346056  7778 net.cpp:416] debugOutput:max_out:59.2482
 I1201 17:06:57.347862  7778 net.cpp:420] debugOutput:max_val:0.736159
 I1201 17:06:57.347870  7778 net.cpp:421] debugOutput:max_out:3.07318
-
+I1201 17:06:57.603984  7778 quantization.cpp:164] debugOutput:conv1
+I1201 17:06:57.604063  7778 quantization.cpp:165] debugOutput:max_in_:160.858 il:8
+I1201 17:06:57.604086  7778 quantization.cpp:166] debugOutput:max_out_:29.0357 il:5
+I1201 17:06:57.604091  7778 quantization.cpp:167] debugOutput:max_params_:0.704324 il:1
+I1201 17:06:57.604099  7778 quantization.cpp:164] debugOutput:res2a_branch1
+I1201 17:06:57.604101  7778 quantization.cpp:165] debugOutput:max_in_:29.0357 il:5
+I1201 17:06:57.604105  7778 quantization.cpp:166] debugOutput:max_out_:29.0357 il:5
+I1201 17:06:57.604110  7778 quantization.cpp:167] debugOutput:max_params_:3.5374 il:3
+I1201 17:06:57.604115  7778 quantization.cpp:164] debugOutput:res2a_branch2a
+I1201 17:06:57.604118  7778 quantization.cpp:165] debugOutput:max_in_:29.0357 il:5
+I1201 17:06:57.604122  7778 quantization.cpp:166] debugOutput:max_out_:27.9485 il:5
+I1201 17:06:57.604125  7778 quantization.cpp:167] debugOutput:max_params_:9.71452 il:5
+I1201 17:06:57.604130  7778 quantization.cpp:164] debugOutput:res2a_branch2b
+I1201 17:06:57.604133  7778 quantization.cpp:165] debugOutput:max_in_:12.7987 il:4
+I1201 17:06:57.604137  7778 quantization.cpp:166] debugOutput:max_out_:12.7987 il:4
+I1201 17:06:57.604141  7778 quantization.cpp:167] debugOutput:max_params_:7.61555 il:4
+I1201 17:06:57.604146  7778 quantization.cpp:164] debugOutput:res2a_branch2c
+I1201 17:06:57.604147  7778 quantization.cpp:165] debugOutput:max_in_:12.5564 il:4
+I1201 17:06:57.604151  7778 quantization.cpp:166] debugOutput:max_out_:14.7873 il:4
+I1201 17:06:57.604156  7778 quantization.cpp:167] debugOutput:max_params_:4.01137 il:4
+I1201 17:06:57.604159  7778 quantization.cpp:164] debugOutput:res2b_branch2a
+I1201 17:06:57.604163  7778 quantization.cpp:165] debugOutput:max_in_:20.776 il:5
+I1201 17:06:57.604167  7778 quantization.cpp:166] debugOutput:max_out_:14.7873 il:4
+I1201 17:06:57.604171  7778 quantization.cpp:167] debugOutput:max_params_:2.81995 il:3
+I1201 17:06:57.604174  7778 quantization.cpp:164] debugOutput:res2b_branch2b
+I1201 17:06:57.604177  7778 quantization.cpp:165] debugOutput:max_in_:12.8918 il:4
+I1201 17:06:57.604192  7778 quantization.cpp:166] debugOutput:max_out_:12.8918 il:4
+I1201 17:06:57.604197  7778 quantization.cpp:167] debugOutput:max_params_:2.51278 il:3
+I1201 17:06:57.604200  7778 quantization.cpp:164] debugOutput:res2b_branch2c
+I1201 17:06:57.604203  7778 quantization.cpp:165] debugOutput:max_in_:11.1019 il:4
+I1201 17:06:57.604207  7778 quantization.cpp:166] debugOutput:max_out_:18.871 il:5
+I1201 17:06:57.604212  7778 quantization.cpp:167] debugOutput:max_params_:1.61772 il:2
+I1201 17:06:57.604215  7778 quantization.cpp:164] debugOutput:res2c_branch2a
+I1201 17:06:57.604218  7778 quantization.cpp:165] debugOutput:max_in_:20.8554 il:5
+I1201 17:06:57.604230  7778 quantization.cpp:166] debugOutput:max_out_:18.871 il:5
+I1201 17:06:57.604234  7778 quantization.cpp:167] debugOutput:max_params_:2.13008 il:3
+I1201 17:06:57.604238  7778 quantization.cpp:164] debugOutput:res2c_branch2b
+I1201 17:06:57.604241  7778 quantization.cpp:165] debugOutput:max_in_:12.542 il:4
+I1201 17:06:57.604244  7778 quantization.cpp:166] debugOutput:max_out_:13.5072 il:4
+I1201 17:06:57.604249  7778 quantization.cpp:167] debugOutput:max_params_:1.98832 il:2
+I1201 17:06:57.604252  7778 quantization.cpp:164] debugOutput:res2c_branch2c
+I1201 17:06:57.604254  7778 quantization.cpp:165] debugOutput:max_in_:13.5072 il:4
+I1201 17:06:57.604259  7778 quantization.cpp:166] debugOutput:max_out_:19.5228 il:5
+I1201 17:06:57.604262  7778 quantization.cpp:167] debugOutput:max_params_:1.64928 il:2
+I1201 17:06:57.604265  7778 quantization.cpp:164] debugOutput:res3a_branch1
+I1201 17:06:57.604269  7778 quantization.cpp:165] debugOutput:max_in_:21.0791 il:5
+I1201 17:06:57.604272  7778 quantization.cpp:166] debugOutput:max_out_:20.7619 il:5
+I1201 17:06:57.604275  7778 quantization.cpp:167] debugOutput:max_params_:2.15398 il:3
+I1201 17:06:57.604279  7778 quantization.cpp:164] debugOutput:res3a_branch2a
+I1201 17:06:57.604282  7778 quantization.cpp:165] debugOutput:max_in_:21.0791 il:5
+I1201 17:06:57.604285  7778 quantization.cpp:166] debugOutput:max_out_:20.7619 il:5
+I1201 17:06:57.604290  7778 quantization.cpp:167] debugOutput:max_params_:2.73513 il:3
+I1201 17:06:57.604292  7778 quantization.cpp:164] debugOutput:res3a_branch2b
+I1201 17:06:57.604295  7778 quantization.cpp:165] debugOutput:max_in_:10.8642 il:4
+I1201 17:06:57.604300  7778 quantization.cpp:166] debugOutput:max_out_:10.8642 il:4
+I1201 17:06:57.604302  7778 quantization.cpp:167] debugOutput:max_params_:2.94163 il:3
+I1201 17:06:57.604306  7778 quantization.cpp:164] debugOutput:res3a_branch2c
+I1201 17:06:57.604310  7778 quantization.cpp:165] debugOutput:max_in_:9.17587 il:4
+I1201 17:06:57.604312  7778 quantization.cpp:166] debugOutput:max_out_:17.7731 il:5
+I1201 17:06:57.604316  7778 quantization.cpp:167] debugOutput:max_params_:4.09387 il:4
+I1201 17:06:57.604320  7778 quantization.cpp:164] debugOutput:res3b_branch2a
+I1201 17:06:57.604322  7778 quantization.cpp:165] debugOutput:max_in_:23.289 il:5
+I1201 17:06:57.604326  7778 quantization.cpp:166] debugOutput:max_out_:17.7731 il:5
+I1201 17:06:57.604329  7778 quantization.cpp:167] debugOutput:max_params_:2.72988 il:3
+I1201 17:06:57.604333  7778 quantization.cpp:164] debugOutput:res3b_branch2b
+I1201 17:06:57.604336  7778 quantization.cpp:165] debugOutput:max_in_:9.36649 il:4
+I1201 17:06:57.604339  7778 quantization.cpp:166] debugOutput:max_out_:9.79326 il:4
+I1201 17:06:57.604342  7778 quantization.cpp:167] debugOutput:max_params_:2.09569 il:3
+I1201 17:06:57.604347  7778 quantization.cpp:164] debugOutput:res3b_branch2c
+I1201 17:06:57.604349  7778 quantization.cpp:165] debugOutput:max_in_:9.79326 il:4
+I1201 17:06:57.604353  7778 quantization.cpp:166] debugOutput:max_out_:19.7725 il:5
+I1201 17:06:57.604357  7778 quantization.cpp:167] debugOutput:max_params_:1.79416 il:2
+I1201 17:06:57.604360  7778 quantization.cpp:164] debugOutput:res3c_branch2a
+I1201 17:06:57.604363  7778 quantization.cpp:165] debugOutput:max_in_:24.0069 il:5
+I1201 17:06:57.604367  7778 quantization.cpp:166] debugOutput:max_out_:25.373 il:5
+I1201 17:06:57.604370  7778 quantization.cpp:167] debugOutput:max_params_:2.12153 il:3
+I1201 17:06:57.604377  7778 quantization.cpp:164] debugOutput:res3c_branch2b
+I1201 17:06:57.604379  7778 quantization.cpp:165] debugOutput:max_in_:25.373 il:5
+I1201 17:06:57.604383  7778 quantization.cpp:166] debugOutput:max_out_:65.5572 il:7
+I1201 17:06:57.604387  7778 quantization.cpp:167] debugOutput:max_params_:1.86674 il:2
+I1201 17:06:57.604391  7778 quantization.cpp:164] debugOutput:res3c_branch2c
+I1201 17:06:57.604393  7778 quantization.cpp:165] debugOutput:max_in_:65.5572 il:7
+I1201 17:06:57.604398  7778 quantization.cpp:166] debugOutput:max_out_:65.5572 il:7
+I1201 17:06:57.604401  7778 quantization.cpp:167] debugOutput:max_params_:2.17878 il:3
+I1201 17:06:57.604408  7778 quantization.cpp:164] debugOutput:res3d_branch2a
+I1201 17:06:57.604411  7778 quantization.cpp:165] debugOutput:max_in_:28.9802 il:5
+I1201 17:06:57.604415  7778 quantization.cpp:166] debugOutput:max_out_:33.3561 il:6
+I1201 17:06:57.604419  7778 quantization.cpp:167] debugOutput:max_params_:3.04261 il:3
+I1201 17:06:57.604423  7778 quantization.cpp:164] debugOutput:res3d_branch2b
+I1201 17:06:57.604425  7778 quantization.cpp:165] debugOutput:max_in_:33.3561 il:6
+I1201 17:06:57.604429  7778 quantization.cpp:166] debugOutput:max_out_:33.3561 il:6
+I1201 17:06:57.604432  7778 quantization.cpp:167] debugOutput:max_params_:2.39445 il:3
+I1201 17:06:57.604436  7778 quantization.cpp:164] debugOutput:res3d_branch2c
+I1201 17:06:57.604439  7778 quantization.cpp:165] debugOutput:max_in_:16.2904 il:5
+I1201 17:06:57.604442  7778 quantization.cpp:166] debugOutput:max_out_:16.7215 il:5
+I1201 17:06:57.604446  7778 quantization.cpp:167] debugOutput:max_params_:1.69447 il:2
+I1201 17:06:57.604449  7778 quantization.cpp:164] debugOutput:res4a_branch1
+I1201 17:06:57.604452  7778 quantization.cpp:165] debugOutput:max_in_:27.4938 il:5
+I1201 17:06:57.604456  7778 quantization.cpp:166] debugOutput:max_out_:23.5012 il:5
+I1201 17:06:57.604460  7778 quantization.cpp:167] debugOutput:max_params_:1.72095 il:2
+I1201 17:06:57.604463  7778 quantization.cpp:164] debugOutput:res4a_branch2a
+I1201 17:06:57.604466  7778 quantization.cpp:165] debugOutput:max_in_:27.4938 il:5
+I1201 17:06:57.604470  7778 quantization.cpp:166] debugOutput:max_out_:23.5012 il:5
+I1201 17:06:57.604473  7778 quantization.cpp:167] debugOutput:max_params_:2.77919 il:3
+I1201 17:06:57.604477  7778 quantization.cpp:164] debugOutput:res4a_branch2b
+I1201 17:06:57.604480  7778 quantization.cpp:165] debugOutput:max_in_:18.9058 il:5
+I1201 17:06:57.604483  7778 quantization.cpp:166] debugOutput:max_out_:18.9058 il:5
+I1201 17:06:57.604487  7778 quantization.cpp:167] debugOutput:max_params_:1.79939 il:2
+I1201 17:06:57.604490  7778 quantization.cpp:164] debugOutput:res4a_branch2c
+I1201 17:06:57.604493  7778 quantization.cpp:165] debugOutput:max_in_:14.8044 il:4
+I1201 17:06:57.604497  7778 quantization.cpp:166] debugOutput:max_out_:17.5235 il:5
+I1201 17:06:57.604501  7778 quantization.cpp:167] debugOutput:max_params_:4.12375 il:4
+I1201 17:06:57.604504  7778 quantization.cpp:164] debugOutput:res4b_branch2a
+I1201 17:06:57.604507  7778 quantization.cpp:165] debugOutput:max_in_:24.363 il:5
+I1201 17:06:57.604511  7778 quantization.cpp:166] debugOutput:max_out_:19.9311 il:5
+I1201 17:06:57.604514  7778 quantization.cpp:167] debugOutput:max_params_:2.36684 il:3
+I1201 17:06:57.604518  7778 quantization.cpp:164] debugOutput:res4b_branch2b
+I1201 17:06:57.604521  7778 quantization.cpp:165] debugOutput:max_in_:19.9311 il:5
+I1201 17:06:57.604524  7778 quantization.cpp:166] debugOutput:max_out_:36.4913 il:6
+I1201 17:06:57.604528  7778 quantization.cpp:167] debugOutput:max_params_:5.85845 il:4
+I1201 17:06:57.604532  7778 quantization.cpp:164] debugOutput:res4b_branch2c
+I1201 17:06:57.604535  7778 quantization.cpp:165] debugOutput:max_in_:36.4913 il:6
+I1201 17:06:57.604538  7778 quantization.cpp:166] debugOutput:max_out_:36.4913 il:6
+I1201 17:06:57.604542  7778 quantization.cpp:167] debugOutput:max_params_:2.38296 il:3
+I1201 17:06:57.604545  7778 quantization.cpp:164] debugOutput:res4c_branch2a
+I1201 17:06:57.604550  7778 quantization.cpp:165] debugOutput:max_in_:22.149 il:5
+I1201 17:06:57.604555  7778 quantization.cpp:166] debugOutput:max_out_:22.149 il:5
+I1201 17:06:57.604558  7778 quantization.cpp:167] debugOutput:max_params_:1.94297 il:2
+I1201 17:06:57.604562  7778 quantization.cpp:164] debugOutput:res4c_branch2b
+I1201 17:06:57.604565  7778 quantization.cpp:165] debugOutput:max_in_:20.1893 il:5
+I1201 17:06:57.604569  7778 quantization.cpp:166] debugOutput:max_out_:31.8226 il:5
+I1201 17:06:57.604573  7778 quantization.cpp:167] debugOutput:max_params_:2.1715 il:3
+I1201 17:06:57.604578  7778 quantization.cpp:164] debugOutput:res4c_branch2c
+I1201 17:06:57.604583  7778 quantization.cpp:165] debugOutput:max_in_:31.8226 il:5
+I1201 17:06:57.604588  7778 quantization.cpp:166] debugOutput:max_out_:31.8226 il:5
+I1201 17:06:57.604591  7778 quantization.cpp:167] debugOutput:max_params_:1.90055 il:2
+I1201 17:06:57.604594  7778 quantization.cpp:164] debugOutput:res4d_branch2a
+I1201 17:06:57.604598  7778 quantization.cpp:165] debugOutput:max_in_:21.3051 il:5
+I1201 17:06:57.604601  7778 quantization.cpp:166] debugOutput:max_out_:21.9326 il:5
+I1201 17:06:57.604605  7778 quantization.cpp:167] debugOutput:max_params_:1.44971 il:2
+I1201 17:06:57.604609  7778 quantization.cpp:164] debugOutput:res4d_branch2b
+I1201 17:06:57.604611  7778 quantization.cpp:165] debugOutput:max_in_:21.9326 il:5
+I1201 17:06:57.604615  7778 quantization.cpp:166] debugOutput:max_out_:41.4715 il:6
+I1201 17:06:57.604619  7778 quantization.cpp:167] debugOutput:max_params_:1.94165 il:2
+I1201 17:06:57.604622  7778 quantization.cpp:164] debugOutput:res4d_branch2c
+I1201 17:06:57.604625  7778 quantization.cpp:165] debugOutput:max_in_:41.4715 il:6
+I1201 17:06:57.604629  7778 quantization.cpp:166] debugOutput:max_out_:41.4715 il:6
+I1201 17:06:57.604632  7778 quantization.cpp:167] debugOutput:max_params_:1.93918 il:2
+I1201 17:06:57.604635  7778 quantization.cpp:164] debugOutput:res4e_branch2a
+I1201 17:06:57.604638  7778 quantization.cpp:165] debugOutput:max_in_:26.1953 il:5
+I1201 17:06:57.604642  7778 quantization.cpp:166] debugOutput:max_out_:26.1953 il:5
+I1201 17:06:57.604646  7778 quantization.cpp:167] debugOutput:max_params_:1.64564 il:2
+I1201 17:06:57.604650  7778 quantization.cpp:164] debugOutput:res4e_branch2b
+I1201 17:06:57.604652  7778 quantization.cpp:165] debugOutput:max_in_:18.8944 il:5
+I1201 17:06:57.604656  7778 quantization.cpp:166] debugOutput:max_out_:31.7474 il:5
+I1201 17:06:57.604660  7778 quantization.cpp:167] debugOutput:max_params_:2.5709 il:3
+I1201 17:06:57.604663  7778 quantization.cpp:164] debugOutput:res4e_branch2c
+I1201 17:06:57.604666  7778 quantization.cpp:165] debugOutput:max_in_:31.7474 il:5
+I1201 17:06:57.604670  7778 quantization.cpp:166] debugOutput:max_out_:31.7474 il:5
+I1201 17:06:57.604673  7778 quantization.cpp:167] debugOutput:max_params_:1.85809 il:2
+I1201 17:06:57.604677  7778 quantization.cpp:164] debugOutput:res4f_branch2a
+I1201 17:06:57.604681  7778 quantization.cpp:165] debugOutput:max_in_:29.7717 il:5
+I1201 17:06:57.604683  7778 quantization.cpp:166] debugOutput:max_out_:23.4494 il:5
+I1201 17:06:57.604687  7778 quantization.cpp:167] debugOutput:max_params_:1.50054 il:2
+I1201 17:06:57.604691  7778 quantization.cpp:164] debugOutput:res4f_branch2b
+I1201 17:06:57.604693  7778 quantization.cpp:165] debugOutput:max_in_:14.3927 il:4
+I1201 17:06:57.604697  7778 quantization.cpp:166] debugOutput:max_out_:49.3541 il:6
+I1201 17:06:57.604701  7778 quantization.cpp:167] debugOutput:max_params_:1.54668 il:2
+I1201 17:06:57.604704  7778 quantization.cpp:164] debugOutput:res4f_branch2c
+I1201 17:06:57.604707  7778 quantization.cpp:165] debugOutput:max_in_:49.3541 il:6
+I1201 17:06:57.604712  7778 quantization.cpp:166] debugOutput:max_out_:49.3541 il:6
+I1201 17:06:57.604715  7778 quantization.cpp:167] debugOutput:max_params_:2.94222 il:3
+I1201 17:06:57.604718  7778 quantization.cpp:164] debugOutput:res5a_branch1
+I1201 17:06:57.604722  7778 quantization.cpp:165] debugOutput:max_in_:32.0515 il:6
+I1201 17:06:57.604725  7778 quantization.cpp:166] debugOutput:max_out_:71.41 il:7
+I1201 17:06:57.604732  7778 quantization.cpp:167] debugOutput:max_params_:1.98431 il:2
+I1201 17:06:57.604734  7778 quantization.cpp:164] debugOutput:res5a_branch2a
+I1201 17:06:57.604737  7778 quantization.cpp:165] debugOutput:max_in_:71.41 il:7
+I1201 17:06:57.604742  7778 quantization.cpp:166] debugOutput:max_out_:71.41 il:7
+I1201 17:06:57.604745  7778 quantization.cpp:167] debugOutput:max_params_:4.57463 il:4
+I1201 17:06:57.604748  7778 quantization.cpp:164] debugOutput:res5a_branch2b
+I1201 17:06:57.604751  7778 quantization.cpp:165] debugOutput:max_in_:9.74728 il:4
+I1201 17:06:57.604755  7778 quantization.cpp:166] debugOutput:max_out_:9.74728 il:4
+I1201 17:06:57.604763  7778 quantization.cpp:167] debugOutput:max_params_:2.48164 il:3
+I1201 17:06:57.604765  7778 quantization.cpp:164] debugOutput:res5a_branch2c
+I1201 17:06:57.604768  7778 quantization.cpp:165] debugOutput:max_in_:7.14335 il:3
+I1201 17:06:57.604773  7778 quantization.cpp:166] debugOutput:max_out_:24.3327 il:5
+I1201 17:06:57.604775  7778 quantization.cpp:167] debugOutput:max_params_:2.40211 il:3
+I1201 17:06:57.604779  7778 quantization.cpp:164] debugOutput:res5b_branch2a
+I1201 17:06:57.604782  7778 quantization.cpp:165] debugOutput:max_in_:79.5788 il:7
+I1201 17:06:57.604786  7778 quantization.cpp:166] debugOutput:max_out_:24.3327 il:5
+I1201 17:06:57.604789  7778 quantization.cpp:167] debugOutput:max_params_:3.49225 il:3
+I1201 17:06:57.604794  7778 quantization.cpp:164] debugOutput:res5b_branch2b
+I1201 17:06:57.604795  7778 quantization.cpp:165] debugOutput:max_in_:8.80181 il:4
+I1201 17:06:57.604799  7778 quantization.cpp:166] debugOutput:max_out_:8.80181 il:4
+I1201 17:06:57.604802  7778 quantization.cpp:167] debugOutput:max_params_:4.96991 il:4
+I1201 17:06:57.604806  7778 quantization.cpp:164] debugOutput:res5b_branch2c
+I1201 17:06:57.604809  7778 quantization.cpp:165] debugOutput:max_in_:8.2058 il:4
+I1201 17:06:57.604812  7778 quantization.cpp:166] debugOutput:max_out_:35.2199 il:6
+I1201 17:06:57.604816  7778 quantization.cpp:167] debugOutput:max_params_:1.54981 il:2
+I1201 17:06:57.604820  7778 quantization.cpp:164] debugOutput:res5c_branch2a
+I1201 17:06:57.604822  7778 quantization.cpp:165] debugOutput:max_in_:86.6148 il:7
+I1201 17:06:57.604826  7778 quantization.cpp:166] debugOutput:max_out_:35.2199 il:6
+I1201 17:06:57.604830  7778 quantization.cpp:167] debugOutput:max_params_:2.84656 il:3
+I1201 17:06:57.604833  7778 quantization.cpp:164] debugOutput:res5c_branch2b
+I1201 17:06:57.604836  7778 quantization.cpp:165] debugOutput:max_in_:11.425 il:4
+I1201 17:06:57.604840  7778 quantization.cpp:166] debugOutput:max_out_:13.3965 il:4
+I1201 17:06:57.604843  7778 quantization.cpp:167] debugOutput:max_params_:5.3278 il:4
+I1201 17:06:57.604847  7778 quantization.cpp:164] debugOutput:res5c_branch2c
+I1201 17:06:57.604851  7778 quantization.cpp:165] debugOutput:max_in_:13.3965 il:4
+I1201 17:06:57.604853  7778 quantization.cpp:166] debugOutput:max_out_:59.2482 il:6
+I1201 17:06:57.604857  7778 quantization.cpp:167] debugOutput:max_params_:1.33467 il:2
+I1201 17:06:57.604861  7778 quantization.cpp:164] debugOutput:fc1000
+I1201 17:06:57.604863  7778 quantization.cpp:165] debugOutput:max_in_:59.2482 il:6
+I1201 17:06:57.604867  7778 quantization.cpp:166] debugOutput:max_out_:59.2482 il:6
+I1201 17:06:57.604871  7778 quantization.cpp:167] debugOutput:max_params_:3.07318 il:3
