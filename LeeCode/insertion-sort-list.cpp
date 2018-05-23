@@ -20,13 +20,14 @@ Sort a linked list using insertion sort.（插入排序）
 
 重点：链表的next指针的交换，循环体的开始和结束判断比较复杂，
       其中又是循环的结束判断最容易出错，最好先画图或理好思路。
+      其次，注意链表有没头节点。
 */
 
 /*新建的链表中插入*/
 ListNode *insertionSortList(ListNode *head) {
 	if (head == NULL || head->next == NULL)
 		return head;
-	ListNode* first = new ListNode(0);
+	ListNode* first = new ListNode(0);	//这里看到他的head链表没有投节点，就新建一个
 	ListNode* index = head;
 	ListNode* cur = first;
 	//cur->next = index;	//第一个节点操作后来发现可以并到后面循环体
